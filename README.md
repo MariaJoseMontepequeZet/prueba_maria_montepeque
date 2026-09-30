@@ -115,3 +115,6 @@ curl -X PUT http://localhost:3000/applications/1/status \
 - **Integridad en BD:** `ENUM`, claves foráneas con `ON DELETE RESTRICT`, `UNIQUE` en correo, `CHECK` y enteros sin signo; el puntaje nunca puede ser negativo.
 - **Zona horaria:** la sesión de BD trabaja en UTC y las fechas se devuelven en ISO 8601.
 - **Seguridad:** consultas parametrizadas, configuración solo por variables de entorno y validación estricta de entrada.
+
+## Link
+https://claude.ai/share/5a25f3b2-c85f-4e17-9f6c-ded9cdce72d7
