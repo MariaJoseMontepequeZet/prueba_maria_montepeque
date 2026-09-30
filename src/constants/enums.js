@@ -1,0 +1,17 @@
+const SOURCES = Object.freeze(['REFERRAL', 'INTERNAL', 'JOB_BOARD', 'OTHER']);
+const APPLICATION_STATUSES = Object.freeze(['RECEIVED', 'IN_REVIEW', 'REJECTED', 'HIRED']);
+const ACTIVE_STATUSES = Object.freeze(['RECEIVED', 'IN_REVIEW']);
+const FINAL_STATUSES = Object.freeze(['REJECTED', 'HIRED']);
+const VACANCY_STATUS = Object.freeze({ OPEN: 'OPEN', CLOSED: 'CLOSED' });
+const PRIORITIES = Object.freeze({ LOW: 'LOW', MEDIUM: 'MEDIUM', HIGH: 'HIGH', TOP: 'TOP' });
+const REAPPLY_WAITING_DAYS = 30;
+
+module.exports = {
+  SOURCES,
+  APPLICATION_STATUSES,
+  ACTIVE_STATUSES,
+  FINAL_STATUSES,
+  VACANCY_STATUS,
+  PRIORITIES,
+  REAPPLY_WAITING_DAYS,
+};

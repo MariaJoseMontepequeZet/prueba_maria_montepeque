@@ -1,0 +1,20 @@
+{
+  "name": "recruitment-api",
+  "version": "1.0.0",
+  "description": "API REST para gestión de postulaciones a vacantes",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mysql2": "^3.24.5"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
