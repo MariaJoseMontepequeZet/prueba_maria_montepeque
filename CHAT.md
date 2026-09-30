@@ -16,4 +16,4 @@ Se compartió el enunciado de la prueba diagnóstica y se pidió actuar como des
 - Redactó README.md y RESPUESTAS.md.
 - Verificó los endpoints contra una base de datos real antes de la entrega.
 
-> Adjuntar a continuación la exportación completa de la conversación.
+Conversación completa: https://claude.ai/share/5a25f3b2-c85f-4e17-9f6c-ded9cdce72d7
